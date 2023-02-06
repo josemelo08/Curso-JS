@@ -1,0 +1,36 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center; /*centralizar*/
+
+}
+
+section{
+    background: white;
+    border-radius: 10px; /*borda arredondada*/
+    padding: 15px; /*espessura/ espaço*/
+    width: 500px; /*largura*/
+    margin: auto; /*centralizar*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.402) ;
+    /*sombra projetada
+    5px lateral 5px vertical 10px de espalhamento*/
+}
+
+footer{
+    color: white;
+    text-align: center; /*centralizar*/
+    font-style: italic;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit:fill;
+  }
+
